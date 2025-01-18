@@ -7,7 +7,7 @@ repository: https://github.com/the-airbender/quill_html_editor
 maintainer: Pavan Kumar Nagulavancha
 
 environment:
-  sdk: '>=2.18.1 <4.0.0'
+  sdk: ">=2.18.1 <4.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
@@ -16,19 +16,19 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   ##### For image picker widget
-  file_picker: ^6.1.1
+  file_picker: ^8.1.7
   ##### For webveiwx widget
-  http: ^1.1.2
-  path: ^1.9.0
-  pointer_interceptor: ^0.10.1
-  uuid: ^4.3.3
-  webview_flutter: ^4.4.4
-  webview_flutter_android: ^3.13.2
-  webview_flutter_platform_interface: ^2.9.0
-  webview_flutter_wkwebview: ^3.10.2
+  http: ^1.2.2
+  path: ^1.9.1
+  pointer_interceptor: ^0.10.1+2
+  uuid: ^4.5.1
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.3.0
+  webview_flutter_platform_interface: ^2.10.0
+  webview_flutter_wkwebview: ^3.17.0
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   plugin:
@@ -40,16 +40,16 @@ flutter:
       web:
         default_package: quill_html_editor
   assets:
-      - packages/quill_html_editor/assets/camera_roll_icon.png
-      - packages/quill_html_editor/assets/h1_dark.png
-      - packages/quill_html_editor/assets/h2_dark.png
-      - packages/quill_html_editor/assets/edit_table.png
-      - packages/quill_html_editor/assets/insert_table.png
-      - packages/quill_html_editor/assets/delete_column.png
-      - packages/quill_html_editor/assets/delete_row.png
-      - packages/quill_html_editor/assets/delete_table.png
-      - packages/quill_html_editor/assets/insert_column_left.png
-      - packages/quill_html_editor/assets/insert_row_above.png
-      - packages/quill_html_editor/assets/insert_row_below.png
-      - packages/quill_html_editor/assets/insert_column_right.png
-      - packages/quill_html_editor/assets/scripts/quill_2.0.0_4_min.js
+    - packages/quill_html_editor/assets/camera_roll_icon.png
+    - packages/quill_html_editor/assets/h1_dark.png
+    - packages/quill_html_editor/assets/h2_dark.png
+    - packages/quill_html_editor/assets/edit_table.png
+    - packages/quill_html_editor/assets/insert_table.png
+    - packages/quill_html_editor/assets/delete_column.png
+    - packages/quill_html_editor/assets/delete_row.png
+    - packages/quill_html_editor/assets/delete_table.png
+    - packages/quill_html_editor/assets/insert_column_left.png
+    - packages/quill_html_editor/assets/insert_row_above.png
+    - packages/quill_html_editor/assets/insert_row_below.png
+    - packages/quill_html_editor/assets/insert_column_right.png
+    - packages/quill_html_editor/assets/scripts/quill_2.0.0_4_min.js
